@@ -1,0 +1,10 @@
+# Netlify Configuration for Next.js deployment
+# Environment variables MUST be set in Netlify dashboard:
+# Site Settings > Build & Deploy > Environment
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+  # Exclude NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME from secrets scanning
+  # It's a public variable meant to be in client bundles, not a secret
+  environment = { SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME" }

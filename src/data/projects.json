@@ -1,0 +1,396 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "SpeakFlow",
+      "tagline": "Master any language naturally",
+      "description": "تطبيق تعلم اللغات المتقدم يوفر نطق طبيعي من متحدثين أصليين وتغذية راجعة للنطق بقوة الذكاء الاصطناعي وتتبع التقدم اليومي.",
+      "descriptionEn": "An advanced language learning app featuring native pronunciation from speakers, AI-powered pronunciation feedback, and daily progress tracking for mastering any language naturally.",
+      "tech": ["Flutter", "Dart", "Firebase", "AI/ML", "Speech Recognition", "Text-to-Speech", "Python"],
+      "category": "Mobile App",
+      "image": "/img-project/Snapshot - انطقها صح (1 10.92).png",
+      "demo": "https://example.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/Snapshot - انطقها صح (1 10.92).png",
+          "caption": "صفحة البطل - الميزات الرئيسية",
+          "captionEn": "Hero Page - Main Features"
+        },
+        {
+          "image": "/img-project/Snapshot - انطقها صح (1 22.36).png",
+          "caption": "اختيار اللغة - دعم 7+ لغات",
+          "captionEn": "Language Selection - 7+ Languages"
+        },
+        {
+          "image": "/img-project/Snapshot - انطقها صح (1 56.72).png",
+          "caption": "تحديد الهدف - تعلم مخصص",
+          "captionEn": "Goal Selection - Personalized Learning"
+        },
+        {
+          "image": "/img-project/Snapshot - انطقها صح (2 43.04).png",
+          "caption": "لوحة التقدم - إحصائيات الأداء",
+          "captionEn": "Progress Dashboard - Performance Stats"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Royal Cut",
+      "tagline": "Premium Barber Experience",
+      "description": "تطبيق حجز مواعيد حلاقة متقدم يوفر تجربة احترافية لحجز المواعيد واختيار الحلاقين. يتميز بواجهة سهلة الاستخدام وتقييمات حقيقية من العملاء.",
+      "descriptionEn": "A premium barber booking mobile app designed for seamless scheduling and stylist management with real-time availability and customer ratings.",
+      "tech": ["Flutter", "Dart", "Firebase", "Node.js", "Stripe", "Firebase Auth"],
+      "category": "Mobile App",
+      "image": "/img-project/screenshot-1776610495985.png",
+      "demo": "https://example.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Completed",
+      "screenshots": [
+        {
+          "image": "/img-project/screenshot-1776610495985.png",
+          "caption": "شاشة تسجيل الدخول والتسجيل - بداية سهلة",
+          "captionEn": "Sign In / Sign Up - Smooth Start"
+        },
+        {
+          "image": "/img-project/screenshot-1776609294398.png",
+          "caption": "الشاشة الرئيسية - ترحيب وخيار الحجز",
+          "captionEn": "Home Screen - Booking & Welcome"
+        },
+        {
+          "image": "/img-project/screenshot-1776609348403.png",
+          "caption": "عرض الخدمات - قائمة الحلاقة",
+          "captionEn": "Service Menu - Barber Options"
+        },
+        {
+          "image": "/img-project/screenshot-1776609366186.png",
+          "caption": "تفاصيل الحجز - اختيار الزمان والمكان",
+          "captionEn": "Booking Details - Schedule & Location"
+        },
+        {
+          "image": "/img-project/screenshot-1776609398158.png",
+          "caption": "تأكيد الموعد - متابعة الحجز",
+          "captionEn": "Appointment Confirmation - Track Booking"
+        },
+        {
+          "image": "/img-project/screenshot-1776609480920.png",
+          "caption": "إدارة الحساب - إعدادات المستخدم",
+          "captionEn": "Account Management - User Settings"
+        },
+        {
+          "image": "/img-project/screenshot-1776609631490.png",
+          "caption": "ملف الحلاق - الخدمات والتقييمات",
+          "captionEn": "Barber Profile - Services & Ratings"
+        },
+        {
+          "image": "/img-project/screenshot-1776609555432.png",
+          "caption": "للمنتجات والخدمات - عرض الحلاقين",
+          "captionEn": "Stylist List - Service Selection"
+        },
+        {
+          "image": "/img-project/screenshot-1776609502490.png",
+          "caption": "اختيار اللغة - العربية والإنجليزية",
+          "captionEn": "Language Selection - Arabic & English"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "SIDRA - Digital Agency",
+      "tagline": "AI-powered marketing agency",
+      "description": "وكالة تسويق رقمية متكاملة مدعومة بالذكاء الاصطناعي، تقدم حلول تصميم مواقع وتجارة إلكترونية وتحليلات تسويقية ذكية لتعزيز نمو العلامات التجارية.",
+      "descriptionEn": "An AI-powered marketing agency website delivering smart web, ecommerce, and campaign analytics solutions with modern UX and automation.",
+      "tech": ["React", "Next.js", "Tailwind CSS", "TypeScript", "OpenAI API", "Vercel", "SEO"],
+      "category": "Web App",
+      "image": "/img-project/Snapshot - سدرة333 (0 00.00).png",
+      "demo": "https://sidra-agency.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/Snapshot - سدرة333 (0 00.00).png",
+          "caption": "الصفحة الرئيسية - ترحيب احترافي",
+          "captionEn": "Landing Page - Professional Welcome"
+        },
+        {
+          "image": "/img-project/Snapshot - fix (3 36.96).png",
+          "caption": "عرض المشاريع - معرض الأعمال",
+          "captionEn": "Portfolio Showcase - Project Gallery"
+        },
+        {
+          "image": "/img-project/Snapshot - انطقها صح (1 10.92).png",
+          "caption": "صفحة الخدمات - عرض الحلول الرقمية",
+          "captionEn": "Services Page - Digital Solutions"
+        },
+        {
+          "image": "/img-project/Snapshot - انطقها صح (1 22.36).png",
+          "caption": "تفاصيل المشروع - التحليل والتصميم",
+          "captionEn": "Project Details - Analysis & Design"
+        },
+        {
+          "image": "/img-project/Snapshot - انطقها صح (1 56.72).png",
+          "caption": "صفحة التواصل - تفاعل مع العملاء",
+          "captionEn": "Contact Page - Client Interaction"
+        },
+        {
+          "image": "/img-project/Snapshot - انطقها صح (2 43.04).png",
+          "caption": "عرض النتائج - نتائج الحملة الرقمية",
+          "captionEn": "Campaign Results - Digital Performance"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "صلحهالي",
+      "tagline": "منصة خدمات صيانة",
+      "description": "تطبيق يربط المستخدمين بفنيين الصيانة مع خيارات الحجز وتتبع العمل بسهولة.",
+      "descriptionEn": "A maintenance service app connecting users with repair technicians and easy job tracking.",
+      "tech": ["Flutter", "Dart", "Firebase", "REST API", "Google Maps", "Push Notifications"],
+      "category": "Mobile App",
+      "image": "/img-project/صلحهالي.png",
+      "demo": "https://example.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/صلحهالي.png",
+          "caption": "واجهة اختيار الخدمة - صيانة سريعة",
+          "captionEn": "Service Selection - Quick Fix"
+        },
+        {
+          "image": "/img-project/صلحهالي (2).jpg",
+          "caption": "تفاصيل الحجز - تحديد موعد",
+          "captionEn": "Booking Details - Schedule Appointment"
+        },
+        {
+          "image": "/img-project/صلحهالي3.jpg",
+          "caption": "عرض الفنيين - تقييمات ومهارات",
+          "captionEn": "Technician Listings - Ratings & Skills"
+        },
+        {
+          "image": "/img-project/صلحهالي4.png",
+          "caption": "متابعة الحالة - حالة الطلب",
+          "captionEn": "Order Tracking - Status Updates"
+        },
+        {
+          "image": "/img-project/صلحهالي5.png",
+          "caption": "سجل الخدمات - ملخص الطلبات",
+          "captionEn": "Service History - Order Summary"
+        },
+        {
+          "image": "/img-project/صلحهالي.jpg",
+          "caption": "تفاصيل الخدمة - حجز أسرع",
+          "captionEn": "Service Detail - Faster Booking"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "اشارتك",
+      "tagline": "تطبيق مساعد ذكي للمكفوفين",
+      "description": "تطبيق ذكي لمساعدة المكفوفين في التفاعل اليومي مع المحتوى عبر أوامر صوتية وواجهة سهلة الاستخدام.",
+      "descriptionEn": "A smart accessibility app for blind users, offering voice-driven assistance and an easy interface for daily interaction.",
+      "tech": ["Flutter", "Dart", "Firebase", "Node.js", "Speech Recognition", "Text-to-Speech"],
+      "category": "Mobile App",
+      "image": "/img-project/Snapshot - اشارتك (0 01.72).png",
+      "demo": "https://example.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/Snapshot - اشارتك (0 01.72).png",
+          "caption": "واجهة اختيار اللغة الصوتية - بداية سهلة",
+          "captionEn": "Voice Language Selection - Easy Start"
+        },
+        {
+          "image": "/img-project/Snapshot - اشارتك (0 02.88).png",
+          "caption": "اختيار نمط المساعدة - تجربة مخصصة",
+          "captionEn": "Assistance Mode Selection - Personalized"
+        },
+        {
+          "image": "/img-project/Snapshot - اشارتك (0 19.60).png",
+          "caption": "شاشة الترحيب - جاهز للمساعدة",
+          "captionEn": "Welcome Screen - Ready to Assist"
+        },
+        {
+          "image": "/img-project/Snapshot - اشارتك (2 01.28).png",
+          "caption": "وضع التفاعل الصوتي - دعم فوري",
+          "captionEn": "Voice Interaction Mode - Instant Support"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "مرايا للفنون",
+      "tagline": "أكاديمية الفن والإبداع",
+      "description": "موقع أكاديمية يعرض الدورات الفنية وفعاليات المعرض ويقدم معلومات عن المدرسة والفنانين.",
+      "descriptionEn": "An arts academy website showcasing courses, exhibitions, and creative community events.",
+      "tech": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Framer Motion", "SEO"],
+      "category": "Web App",
+      "image": "/img-project/مركز مرايا للفنون.png",
+      "demo": "https://mraya-company.netlify.app/",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Completed",
+      "screenshots": [
+        {
+          "image": "/img-project/مركز مرايا للفنون.png",
+          "caption": "صفحة البطل - استقبال الزوار",
+          "captionEn": "Hero Section - Visitor Welcome"
+        },
+        {
+          "image": "/img-project/مرايا للفنون.png",
+          "caption": "الصفحة الرئيسية - عرض الدورات",
+          "captionEn": "Homepage - Course Showcase"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "متجر الكتروني",
+      "tagline": "تجربة تسوق كاملة",
+      "description": "متجر إلكتروني يعرض المنتجات ويدعم الصفحات المخصصة للسلة والدفع والمراجعات.",
+      "descriptionEn": "An online store that supports product browsing, cart flow, checkout, and customer reviews.",
+      "tech": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Stripe", "Commerce API", "React Query"],
+      "category": "Web App",
+      "image": "/img-project/متجر.jpg",
+      "demo": "https://example.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/متجر.jpg",
+          "caption": "الصفحة الرئيسية للمنتجات - ترتيب وفلترة",
+          "captionEn": "Product Landing - Sorting & Filtering"
+        },
+        {
+          "image": "/img-project/متجر اللكتروني.jpg",
+          "caption": "عرض المنتج - تفاصيل وسعر",
+          "captionEn": "Product Detail - Pricing & Info"
+        },
+        {
+          "image": "/img-project/متجر (2).jpg",
+          "caption": "السلة والدفع - تجربة سلسة",
+          "captionEn": "Cart & Checkout - Smooth Experience"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Zone A Academy",
+      "tagline": "نظام إدارة التعليم الحديث",
+      "description": "منصة تعليمية متكاملة لطلاب أكاديمية Zone A توفر محتوى تعليمي متقدم وأدوات تتبع التقدم والمواد الدراسية المنظمة.",
+      "descriptionEn": "An interactive education management system for Zone A Academy enabling students to access course materials, track progress, and manage their learning journey.",
+      "tech": ["Flutter", "Dart", "Node.js", "MongoDB", "Socket.io", "REST API", "Firebase Auth"],
+      "category": "Web App",
+      "image": "/img-project/zone a.png",
+      "demo": "https://zone-academy.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/zone a.png",
+          "caption": "بوابة تسجيل الدخول - ZAMS",
+          "captionEn": "Login Portal - ZAMS System"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Ramada Cafe & Restaurant",
+      "tagline": "نظام إدارة المطاعم المتقدم",
+      "description": "نظام شامل لإدارة المطاعم يتضمن إدارة الطلبات والمخزون والفواتير. يساعد على تحسين كفاءة التشغيل وتتبع الأداء المالي بسهولة.",
+      "descriptionEn": "A comprehensive restaurant management system featuring order management, inventory tracking, and financial analytics with real-time dashboard.",
+      "tech": ["Flutter", "Dart", "Node.js", "MongoDB", "Firebase", "REST API", "Admin Dashboard"],
+      "category": "Web App",
+      "image": "/img-project/Snapshot - Ramada (1 43.28).png",
+      "demo": "https://example.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/Snapshot - Ramada (1 43.28).png",
+          "caption": "لوحة التحكم الرئيسية - إدارة الطلبات",
+          "captionEn": "Main Dashboard - Order Management"
+        },
+        {
+          "image": "/img-project/Snapshot - Ramada (0 17.52).png",
+          "caption": "إدارة المخزون - تتبع المستودعات",
+          "captionEn": "Inventory Management - Stock Tracking"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "بورتفليو",
+      "tagline": "عرض أعمال احترافي",
+      "description": "منصة سريعة لعرض الأعمال والمشاريع الشخصية مع تصميم نظيف وسريع التجاوب.",
+      "descriptionEn": "A fast portfolio platform for showcasing projects and personal work with a clean responsive design.",
+      "tech": ["Next.js", "React", "Tailwind CSS", "TypeScript", "Vercel", "Framer Motion"],
+      "category": "Web App",
+      "image": "/img-project/بورتفليو.png",
+      "demo": "https://example.com",
+      "github": "https://github.com/oaama",
+      "drive": "https://drive.google.com",
+      "status": "Completed",
+      "screenshots": [
+        {
+          "image": "/img-project/بورتفليو.png",
+          "caption": "واجهة العرض - معرض الأعمال",
+          "captionEn": "Showcase Page - Portfolio Gallery"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Amina Al Hadidi Legal",
+      "tagline": "الخدمات القانونية المتخصصة",
+      "description": "موقع متخصص يقدم خدمات قانونية في مجالات القانون الإداري والتجاري والشركات. يعرض الخبرة والمؤهلات بطريقة احترافية وموثوقة.",
+      "descriptionEn": "A professional legal services website specializing in corporate law, administrative law, and business consulting with expert consultation.",
+      "tech": ["React", "Next.js", "Tailwind CSS", "TypeScript", "SEO", "Contact Forms"],
+      "category": "Web App",
+      "image": "/img-project/امينة الحديد.png",
+      "demo": "https://example.com",
+      "github": "https://github.com",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/امينة الحديد.png",
+          "caption": "الصفحة الرئيسية - موقع قانوني احترافي",
+          "captionEn": "Homepage - Professional Legal Website"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "اعادة التدوير",
+      "tagline": "منصة تدوير المخلفات",
+      "description": "تطبيق للتوعية بإعادة التدوير وتقديم إرشادات حول فصل المخلفات وإعادة استخدامها.",
+      "descriptionEn": "A recycling awareness app that guides users on waste separation and reuse practices.",
+      "tech": ["Flutter", "Dart", "Firebase", "Google Maps", "Push Notifications", "Data Visualization"],
+      "category": "Mobile App",
+      "image": "/img-project/اعادة التدوير المخلفات.jpg",
+      "demo": "https://example.com",
+      "github": "https://github.com",
+      "drive": "https://drive.google.com",
+      "status": "Active",
+      "screenshots": [
+        {
+          "image": "/img-project/اعادة التدوير المخلفات.jpg",
+          "caption": "واجهة التوعية - نصائح إعادة التدوير",
+          "captionEn": "Awareness Dashboard - Recycling Tips"
+        }
+      ]
+    }
+  ]
+}
