@@ -1,42 +1,30 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { headers } from 'next/headers';
-import { connectToDatabase } from '@/lib/mongodb';
-import Project from '@/lib/models/Project';
+import projectsData from '@/data/projects.json';
 
-async function verifyAuth(request: NextRequest) {
-  // Verify Bearer token from Authorization header
-  const headersList = await headers();
-  const authHeader = headersList.get('authorization');
-  
-  if (!authHeader?.startsWith('Bearer ')) {
-    return null;
-  }
+/**
+ * FRONTEND-ONLY MODE
+ * All API routes return mock data from /src/data/projects.json
+ */
 
-  const token = authHeader.substring(7);
-  
-  // TODO: Verify token against Firebase or your auth system
-  // For now, accept any token in development
-  if (process.env.NODE_ENV === 'production' && !token) {
-    return null;
-  }
-  
-  return token;
-}
-
-// GET /api/projects - Get all projects (public)
+// GET /api/projects - Get all projects (mock data)
 export async function GET(request: NextRequest) {
   try {
-    await connectToDatabase();
-    
-    const projects = await Project.find({})
-      .sort({ createdAt: -1 })
-      .select('-__v')
-      .lean();
+    const projects = projectsData.projects.map(p => ({
+      id: p.id,
+      name: p.name,
+      description: p.descriptionEn || p.description,
+      tech: p.tech,
+      image: p.image,
+      demo: p.demo,
+      github: p.github,
+      drive: p.drive,
+    }));
 
     return NextResponse.json({
       success: true,
       data: projects,
-      count: projects.length
+      count: projects.length,
+      message: 'Mock data - frontend only mode'
     });
   } catch (error) {
     console.error('Error fetching projects:', error);
@@ -47,24 +35,13 @@ export async function GET(request: NextRequest) {
   }
 }
 
-// POST /api/projects - Create new project (requires auth)
+// POST /api/projects - Mock create (no-op in frontend-only mode)
 export async function POST(request: NextRequest) {
   try {
-    // Verify authentication
-    const auth = await verifyAuth(request);
-    if (!auth) {
-      return NextResponse.json(
-        { success: false, error: 'Unauthorized' },
-        { status: 401 }
-      );
-    }
-
-    await connectToDatabase();
-
     const body = await request.json();
     
     // Validate required fields
-    const { name, description, tech, image, demo, github, drive } = body;
+    const { name, description, tech, image } = body;
     
     if (!name || !description || !Array.isArray(tech) || !image) {
       return NextResponse.json(
@@ -73,22 +50,23 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Create new project
-    const newProject = await Project.create({
+    // Return mock success response
+    const mockProject = {
+      id: `mock-${Date.now()}`,
       name,
       description,
       tech,
       image,
-      demo: demo || null,
-      github: github || null,
-      drive: drive || null,
-    });
+      demo: null,
+      github: null,
+      drive: null,
+    };
 
     return NextResponse.json(
       {
         success: true,
-        data: newProject.toObject(),
-        message: 'Project created successfully'
+        data: mockProject,
+        message: 'Mock project created (frontend-only mode)'
       },
       { status: 201 }
     );

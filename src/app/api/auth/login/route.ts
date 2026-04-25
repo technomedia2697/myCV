@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 
 /**
  * POST /api/auth/login
- * Simple password-based authentication
- * In production, use proper JWT and secure password handling
+ * Mock authentication - frontend only mode
+ * Any password works in frontend-only mode
  */
 export async function POST(request: NextRequest) {
   try {
@@ -16,24 +16,14 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Get admin password from environment
-    const adminPassword = process.env.ADMIN_PASSWORD || 'admin123';
-
-    if (password === adminPassword) {
-      // In production, generate a real JWT token
-      const token = Buffer.from(`admin:${Date.now()}`).toString('base64');
-      
-      return NextResponse.json({
-        success: true,
-        token: token,
-        message: 'Login successful'
-      });
-    }
-
-    return NextResponse.json(
-      { success: false, error: 'Invalid password' },
-      { status: 401 }
-    );
+    // In frontend-only mode, accept any password
+    const token = Buffer.from(`mock-admin:${Date.now()}`).toString('base64');
+    
+    return NextResponse.json({
+      success: true,
+      token: token,
+      message: 'Login successful (mock - frontend only mode)'
+    });
   } catch (error) {
     console.error('Auth error:', error);
     return NextResponse.json(
